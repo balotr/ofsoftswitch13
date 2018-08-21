@@ -58,7 +58,14 @@ The switch makes use of the NetBee library to parse packets, so we need to insta
     ```
     $ sudo cp -R ../include/* /usr/include/
     ```
-
+    
+## Updating
+To update existing ofsoftswitch13 project just simply remove existing one and clone new package from git. After clone operation follow build instructions again.
+   ```
+    $ sudo rm -rf ofsoftswitch13
+    $ git clone https://github.com/CPqD/ofsoftswitch13.git
+   ``` 
+   
 ## Building
 Run the following commands in the `ofsoftswitch13` directory to build and install everything:
 
